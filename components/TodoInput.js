@@ -1,7 +1,6 @@
 import { Image, Modal, StyleSheet, TextInput, View } from "react-native";
 import FlatButton from "./Button";
 import { useState } from "react";
-import Icon from "react-native-vector-icons/Entypo";
 
 const TodoInput = ({ isModalVisible, handleModalClose, handleAddTodo }) => {
   const [inputTodo, setInputTodo] = useState("");
